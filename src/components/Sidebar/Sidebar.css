@@ -1,0 +1,24 @@
+.sidebar {
+  width: 200px;
+  background-color: #542b72;
+  border-right: #3a1356 1px solid;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar li {
+  padding: 15px;
+  border-bottom: #734c8f 1px solid;
+  color: #aa9439;
+  list-style: none;
+}
+.sidebar li a {
+  color: #aa9439;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.sidebar li a.active:before {
+  content: '> ';
+}
+/*# sourceMappingURL=Sidebar.css.map */
